@@ -12,4 +12,4 @@ set grid y
 set ylabel "Lines"
 set xtics rotate
 set bmargin 6
-plot 'lines_of_code_by_author.dat' using 1:2 title "btwang05" w lines, 'lines_of_code_by_author.dat' using 1:3 title "Katie Lin" w lines, 'lines_of_code_by_author.dat' using 1:4 title "Kellie Ren Lu" w lines, 'lines_of_code_by_author.dat' using 1:5 title "Rona (Yanrong Wo)" w lines, 'lines_of_code_by_author.dat' using 1:6 title "yw2513" w lines
+plot 'lines_of_code_by_author.dat' using 1:2 title "btwang05" w lines, 'lines_of_code_by_author.dat' using 1:3 title "Katie Lin" w lines, 'lines_of_code_by_author.dat' using 1:4 title "Kellie Ren Lu" w lines, 'lines_of_code_by_author.dat' using 1:5 title "yw2513" w lines, 'lines_of_code_by_author.dat' using 1:6 title "Rona (Yanrong Wo)" w lines
