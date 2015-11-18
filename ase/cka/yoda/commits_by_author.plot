@@ -12,4 +12,4 @@ set grid y
 set ylabel "Commits"
 set xtics rotate
 set bmargin 6
-plot 'commits_by_author.dat' using 1:2 title "Surashree Kulkarni" w lines, 'commits_by_author.dat' using 1:3 title "KK" w lines, 'commits_by_author.dat' using 1:4 title "Sriharsha Gundappa" w lines, 'commits_by_author.dat' using 1:5 title "William" w lines
+plot 'commits_by_author.dat' using 1:2 title "Surashree Kulkarni" w lines, 'commits_by_author.dat' using 1:3 title "KK" w lines, 'commits_by_author.dat' using 1:4 title "William" w lines, 'commits_by_author.dat' using 1:5 title "Sriharsha Gundappa" w lines
