@@ -32,8 +32,8 @@ nav {
   height: 20vh;
 }
 nav img {
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: auto;
 }
 header, footer, article, nav {
   padding: 1em;
