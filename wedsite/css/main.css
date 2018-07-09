@@ -25,7 +25,7 @@ body {
   min-height: 60vh;
 }
 header, footer {
-  background:green;
+  background: green;
   height: 10vh;
 }
 nav {
