@@ -38,3 +38,4 @@ nav img {
 header, footer, article, nav {
   padding: 1em;
 }
+.centerTable { margin: 0px auto; }
