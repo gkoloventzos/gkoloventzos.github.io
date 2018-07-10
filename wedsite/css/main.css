@@ -8,6 +8,7 @@ body {
   margin: 0;
   background-image: url("../images/board.jpg");
   background-repeat: repeat-y;
+  background-size: auto;
 }
 .col-1 {
   background: #D7E8D4;
