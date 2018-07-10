@@ -6,8 +6,7 @@ body {
   min-height: 100vh;
   flex-direction: row;
   margin: 0;
-  background: url("../images/pinboard.png");
-  background-size:contain;
+  background: url("../images/board.jpg");
 }
 .col-1 {
   background: #D7E8D4;
