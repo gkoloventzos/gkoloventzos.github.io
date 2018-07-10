@@ -6,7 +6,8 @@ body {
   min-height: 100vh;
   flex-direction: row;
   margin: 0;
-  background: url("../images/board.jpg");
+  background-image: url("../images/board.jpg");
+  background-repeat: repeat-y;
 }
 .col-1 {
   background: #D7E8D4;
