@@ -5,8 +5,20 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <link href="css/main.css" rel="stylesheet">
+    <script>
+        $(window).scroll(function(){
+            if ($(window).scrollTop() == 0) {
+                $(".navbar").removeClass("fixed-top");
+            } else {
+                $(".navbar").addClass("fixed-top");
+            }
+        });
+    </script>
 </head>
 <body>
+    <div class="banner">
+        <img border="0" alt="nav" src="./image/up_nav_en.png"></div>
+    </div>
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -17,8 +29,7 @@
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 		        </button>
-		        <div class="navbar-brand navbar-brand-centered"><img border="0"
-                    alt="nav" src="./image/up_nav_en.png"></div>
+		        <div class="navbar-brand navbar-brand-centered">Ioanna &amp; Yorgos</div>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->

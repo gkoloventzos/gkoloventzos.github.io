@@ -12,3 +12,8 @@
         margin-left: -80px;
     }
 }
+.banner {
+    background: rgba(200,200,200,0.8);
+    margin: 0;
+    padding: 1em;
+}
